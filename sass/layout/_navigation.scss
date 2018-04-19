@@ -7,14 +7,14 @@
 
   &__button {
     position: fixed;
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     background-color: $color-grey-light-2;
     z-index: 100;
     box-shadow: 0 .3rem 4rem rgba($color-black, .4);
     right: 4rem;   
-    top: 5rem;
+    top: 4rem;
     cursor: pointer;
     -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
     transition:         all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -50,7 +50,7 @@
     &,
     &:after,
     &:before {
-      width: 4rem;
+      width: 3rem;
       height: 2px;
       background-color: $color-grey-dark-3;
       z-index: 200;
@@ -96,7 +96,7 @@
   &__icon {
    
     transition: all .2s;
-    font-size: 4rem !important;
+    font-size: 3rem !important;
 
     @include respond(phone) {
       font-size: 2.5rem !important;
@@ -130,7 +130,7 @@
     box-shadow: 0 1rem 4rem rgba($color-black, .4);
    
     &--2 {
-      top: 17.5rem;
+      top: 12rem;
 
       @include respond(phone) {
         top: 10rem;
@@ -139,7 +139,7 @@
     }
 
     &--3 {
-      top: 30rem;
+      top: 20rem;
 
       @include respond(phone) {
         top: 18rem;
@@ -147,7 +147,7 @@
     }
 
     &--4 {
-      top: 42.5rem;
+      top: 28rem;
 
       @include respond(phone) {
         top: 26rem;
@@ -155,7 +155,7 @@
     }
 
     &--5 {
-      top: 55rem;
+      top: 36rem;
 
       @include respond(phone) {
         top: 34rem;
@@ -163,7 +163,7 @@
     }
 
     &--6 {
-      top: 67.5rem;
+      top: 44rem;
 
       @include respond(phone) {
         top: 42rem;

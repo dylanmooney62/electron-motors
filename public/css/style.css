@@ -459,23 +459,17 @@ body {
 
 .navigation__button {
   position: fixed;
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   background-color: #eee;
   z-index: 100;
   box-shadow: 0 0.3rem 4rem rgba(0, 0, 0, 0.4);
   right: 4rem;
-  top: 5rem;
+  top: 4rem;
   cursor: pointer;
   -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1); }
-  @media (max-width: 37.5em) {
-    .navigation__button {
-      width: 6rem;
-      height: 6rem;
-      top: 2rem;
-      right: 2rem; } }
   .navigation__button:not(.navigation__button--1) {
     z-index: 20;
     box-shadow: none;
@@ -483,6 +477,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; }
+  @media (max-width: 37.5em) {
+    .navigation__button {
+      width: 6rem;
+      height: 6rem;
+      top: 2rem;
+      right: 2rem; } }
 
 .navigation__toggle {
   position: absolute;
@@ -491,7 +491,7 @@ body {
   transform: translate(-50%, -50%);
   transition: all .1s; }
   .navigation__toggle, .navigation__toggle:after, .navigation__toggle:before {
-    width: 4rem;
+    width: 3rem;
     height: 2px;
     background-color: #333;
     z-index: 200;
@@ -519,7 +519,7 @@ body {
 
 .navigation__icon {
   transition: all .2s;
-  font-size: 4rem !important; }
+  font-size: 3rem !important; }
   @media (max-width: 37.5em) {
     .navigation__icon {
       font-size: 2.5rem !important; } }
@@ -541,27 +541,27 @@ body {
   opacity: 1;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4); }
   .navigation__checkbox:checked ~ .navigation__nav .navigation__button--2 {
-    top: 17.5rem; }
+    top: 12rem; }
     @media (max-width: 37.5em) {
       .navigation__checkbox:checked ~ .navigation__nav .navigation__button--2 {
         top: 10rem; } }
   .navigation__checkbox:checked ~ .navigation__nav .navigation__button--3 {
-    top: 30rem; }
+    top: 20rem; }
     @media (max-width: 37.5em) {
       .navigation__checkbox:checked ~ .navigation__nav .navigation__button--3 {
         top: 18rem; } }
   .navigation__checkbox:checked ~ .navigation__nav .navigation__button--4 {
-    top: 42.5rem; }
+    top: 28rem; }
     @media (max-width: 37.5em) {
       .navigation__checkbox:checked ~ .navigation__nav .navigation__button--4 {
         top: 26rem; } }
   .navigation__checkbox:checked ~ .navigation__nav .navigation__button--5 {
-    top: 55rem; }
+    top: 36rem; }
     @media (max-width: 37.5em) {
       .navigation__checkbox:checked ~ .navigation__nav .navigation__button--5 {
         top: 34rem; } }
   .navigation__checkbox:checked ~ .navigation__nav .navigation__button--6 {
-    top: 67.5rem; }
+    top: 44rem; }
     @media (max-width: 37.5em) {
       .navigation__checkbox:checked ~ .navigation__nav .navigation__button--6 {
         top: 42rem; } }
